@@ -1,0 +1,56 @@
+﻿body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #B7CAB4;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    border: black 1px solid;
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.sidebar a.home {
+     background-color: #3e84e0;
+     color: white;
+}
+
+.sidebar a:hover {
+    background-color: #555;
+    color: white;
+}
+
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+img {
+    width: 470px;
+    height: 313px;
+}
+
+.ust{
+    display: flex;
+    flex-direction:row;
+}
+
+.malzeme{
+        margin:33px;
+}
+
+ul li{
+    margin:9px;
+}
